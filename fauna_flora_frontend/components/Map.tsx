@@ -98,7 +98,7 @@ export default function SpeciesMap({ species }: Props) {
             </a>
             <div className="pt-2 mt-1 border-t border-gray-100">
               <a 
-                href="https://github.com/seu-usuario/seu-repositorio" 
+                href="https://github.com/PaulCod/fauna-floraSP" 
                 target="_blank" 
                 className="text-sm font-medium text-gray-600 hover:text-black flex items-center gap-2 transition"
               >
