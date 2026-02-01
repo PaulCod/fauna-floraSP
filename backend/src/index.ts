@@ -1,3 +1,4 @@
+import "dotenv/config"
 import express from "express"
 import cors from "cors"
 
@@ -7,6 +8,7 @@ import Routes from "./routes.ts"
 
 
 const app = express()
+const PORT = process.env.PORT || 4060 
 
 const speciesService = new SpeciesService()
 const speciesController = new SpeciesController(speciesService)
@@ -17,6 +19,6 @@ app.use(express.urlencoded({extended:true}))
 app.use(express.json())
 app.use(routes.start())
 
-app.listen("4060", () => {
+app.listen(Number(PORT), "0.0.0.0", () => {
     console.log("OK")
 })
