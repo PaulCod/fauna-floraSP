@@ -104,14 +104,14 @@ export default function SpeciesMap({ species }: Props) {
           <span className="text-[10px] font-bold text-gray-400 uppercase mb-2 block">Contribua</span>
           <div className="flex flex-col gap-2">
             <a 
-              href="https://docs.google.com/forms/d/..." 
+              href="https://docs.google.com/forms/d/e/1FAIpQLSdsV__-VxwzfY_11i1evXXCTvSIrdV4d-SLsbw7n1KaDGGs6w/viewform?usp=dialog" 
               target="_blank" 
               className="text-sm font-medium text-gray-600 hover:text-blue-600 flex items-center gap-2 transition"
             >
               <span>💬</span> Feedback
             </a>
             <a 
-              href="https://docs.google.com/forms/d/..." 
+              href="https://docs.google.com/forms/d/e/1FAIpQLSc_ndZ3NIKrOFlrrbTm_qSL_sNhMobUgSTDNE_TGaHUPKHtPw/viewform?usp=dialog" 
               target="_blank" 
               className="text-sm font-medium text-gray-600 hover:text-red-600 flex items-center gap-2 transition"
             >
