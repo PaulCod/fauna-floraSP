@@ -12,10 +12,10 @@ class Routes {
         const routes = Router()
 
         // species
-        routes.post("/species", this.speciesController.create.bind(this.speciesController))
+        // routes.post("/species", this.speciesController.create.bind(this.speciesController))
         routes.get("/species", this.speciesController.getAll.bind(this.speciesController))
         routes.get("/species/category", this.speciesController.getByCategory.bind(this.speciesController))
-        routes.delete("/species/:id", this.speciesController.delete.bind(this.speciesController))
+        // routes.delete("/species/:id", this.speciesController.delete.bind(this.speciesController))
 
         return routes
     }
